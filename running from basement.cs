@@ -10,25 +10,16 @@ using System.Windows.Forms;
 
 namespace the_incident_in_Ravda
 {
-    public partial class basemant_ending : Form
+    public partial class running_from_basement : Form
     {
-        public basemant_ending()
+        public running_from_basement()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            burried_in_basement_end end1 = new burried_in_basement_end();
-            end1.Show();
-            this.Hide();
-        }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            basement_door door = new basement_door();
-            door.Show();
-            this.Hide();
         }
     }
 }

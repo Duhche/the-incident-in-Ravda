@@ -10,24 +10,22 @@ using System.Windows.Forms;
 
 namespace the_incident_in_Ravda
 {
-    public partial class the_1_encounter : Form
+    public partial class Strangers_House : Form
     {
-        public the_1_encounter()
+        public Strangers_House()
         {
             InitializeComponent();
         }
 
-        private void choice1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            forest Forest = new forest();
-            Forest.Show();
-            this.Hide();
+
         }
 
-        private void choice2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            map_of_ravda Map = new map_of_ravda();
-            Map.Show();
+            ending2 end2 = new ending2();
+            end2.Show();
             this.Hide();
         }
     }

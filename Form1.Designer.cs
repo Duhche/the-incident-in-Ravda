@@ -53,7 +53,7 @@
             this.title.BackColor = System.Drawing.Color.Black;
             this.title.Font = new System.Drawing.Font("Chiller", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.Red;
-            this.title.Location = new System.Drawing.Point(154, 58);
+            this.title.Location = new System.Drawing.Point(153, 67);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(466, 86);
             this.title.TabIndex = 2;
@@ -82,8 +82,8 @@
             this.BackgroundImage = global::the_incident_in_Ravda.Properties.Resources.welcome_screen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(802, 453);
-            this.Controls.Add(this.Quit);
             this.Controls.Add(this.title);
+            this.Controls.Add(this.Quit);
             this.Controls.Add(this.Start);
             this.DoubleBuffered = true;
             this.Name = "mainMenu";

@@ -10,24 +10,24 @@ using System.Windows.Forms;
 
 namespace the_incident_in_Ravda
 {
-    public partial class the_1_encounter : Form
+    public partial class basement_door : Form
     {
-        public the_1_encounter()
+        public basement_door()
         {
             InitializeComponent();
         }
 
-        private void choice1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            forest Forest = new forest();
-            Forest.Show();
+            burried_in_basement_end end1 = new burried_in_basement_end();
+            end1.Show();
             this.Hide();
         }
 
-        private void choice2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            map_of_ravda Map = new map_of_ravda();
-            Map.Show();
+            broken_door Out = new broken_door();
+            Out.Show();
             this.Hide();
         }
     }
