@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace the_incident_in_Ravda
 {
-    public partial class map_of_ravda : Form
+    public partial class bus_stop_pt3 : Form
     {
-        public map_of_ravda()
+        public bus_stop_pt3()
         {
             InitializeComponent();
         }
@@ -24,20 +24,15 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
-            thePark park = new thePark();
-            park.Show();
+            ending6 end6 = new ending6();
+            end6.Show();
             this.Hide();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            bus_stop busStop = new bus_stop();
-            busStop.Show();
+            ending_7 end7 = new ending_7();
+            end7.Show();
             this.Hide();
         }
     }

@@ -10,23 +10,18 @@ using System.Windows.Forms;
 
 namespace the_incident_in_Ravda
 {
-    public partial class death_screen : Form
+    public partial class ending_7 : Form
     {
-        public death_screen()
+        public ending_7()
         {
             InitializeComponent();
         }
 
-        private void retry_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            mainMenu mainMenu = new mainMenu();
-            mainMenu.Show();
+            mainMenu menu = new mainMenu();
+            menu.Show();
             this.Hide();
-        }
-
-        private void quit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

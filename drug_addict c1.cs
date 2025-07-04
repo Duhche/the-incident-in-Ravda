@@ -10,31 +10,14 @@ using System.Windows.Forms;
 
 namespace the_incident_in_Ravda
 {
-    public partial class map_of_ravda : Form
+    public partial class drug_addict_c1 : Form
     {
-        public map_of_ravda()
+        public drug_addict_c1()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
-        {
-            thePark park = new thePark();
-            park.Show();
-            this.Hide();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
         {
             bus_stop busStop = new bus_stop();
             busStop.Show();

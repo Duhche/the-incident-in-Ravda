@@ -76,11 +76,41 @@
     <Compile Include="burried_in_basement_end.Designer.cs">
       <DependentUpon>burried_in_basement_end.cs</DependentUpon>
     </Compile>
-    <Compile Include="death_screen.cs">
+    <Compile Include="bus stop pt2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="death_screen.Designer.cs">
-      <DependentUpon>death_screen.cs</DependentUpon>
+    <Compile Include="bus stop pt2.Designer.cs">
+      <DependentUpon>bus stop pt2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bus stop pt3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bus stop pt3.Designer.cs">
+      <DependentUpon>bus stop pt3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bus stop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bus stop.Designer.cs">
+      <DependentUpon>bus stop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drug_addict c1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drug_addict c1.Designer.cs">
+      <DependentUpon>drug_addict c1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drug_addict enc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drug_addict enc.Designer.cs">
+      <DependentUpon>drug_addict enc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="empty park.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empty park.Designer.cs">
+      <DependentUpon>empty park.cs</DependentUpon>
     </Compile>
     <Compile Include="ending 3.cs">
       <SubType>Form</SubType>
@@ -88,11 +118,35 @@
     <Compile Include="ending 3.Designer.cs">
       <DependentUpon>ending 3.cs</DependentUpon>
     </Compile>
+    <Compile Include="ending 7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ending 7.Designer.cs">
+      <DependentUpon>ending 7.cs</DependentUpon>
+    </Compile>
     <Compile Include="ending2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ending2.Designer.cs">
       <DependentUpon>ending2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ending4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ending4.Designer.cs">
+      <DependentUpon>ending4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ending5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ending5.Designer.cs">
+      <DependentUpon>ending5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ending6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ending6.Designer.cs">
+      <DependentUpon>ending6.cs</DependentUpon>
     </Compile>
     <Compile Include="forest.cs">
       <SubType>Form</SubType>
@@ -112,13 +166,31 @@
     <Compile Include="map of ravda.Designer.cs">
       <DependentUpon>map of ravda.cs</DependentUpon>
     </Compile>
+    <Compile Include="park pt2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="park pt2.Designer.cs">
+      <DependentUpon>park pt2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="secret ending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="secret ending.Designer.cs">
+      <DependentUpon>secret ending.cs</DependentUpon>
+    </Compile>
     <Compile Include="Strangers House.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Strangers House.Designer.cs">
       <DependentUpon>Strangers House.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thePark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thePark.Designer.cs">
+      <DependentUpon>thePark.cs</DependentUpon>
     </Compile>
     <Compile Include="the_1_encounter.cs">
       <SubType>Form</SubType>
@@ -141,14 +213,41 @@
     <EmbeddedResource Include="burried_in_basement_end.resx">
       <DependentUpon>burried_in_basement_end.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="death_screen.resx">
-      <DependentUpon>death_screen.cs</DependentUpon>
+    <EmbeddedResource Include="bus stop pt2.resx">
+      <DependentUpon>bus stop pt2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bus stop pt3.resx">
+      <DependentUpon>bus stop pt3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bus stop.resx">
+      <DependentUpon>bus stop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drug_addict c1.resx">
+      <DependentUpon>drug_addict c1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drug_addict enc.resx">
+      <DependentUpon>drug_addict enc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empty park.resx">
+      <DependentUpon>empty park.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ending 3.resx">
       <DependentUpon>ending 3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ending 7.resx">
+      <DependentUpon>ending 7.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ending2.resx">
       <DependentUpon>ending2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ending4.resx">
+      <DependentUpon>ending4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ending5.resx">
+      <DependentUpon>ending5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ending6.resx">
+      <DependentUpon>ending6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forest.resx">
       <DependentUpon>forest.cs</DependentUpon>
@@ -158,6 +257,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="map of ravda.resx">
       <DependentUpon>map of ravda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="park pt2.resx">
+      <DependentUpon>park pt2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -169,8 +271,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="secret ending.resx">
+      <DependentUpon>secret ending.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Strangers House.resx">
       <DependentUpon>Strangers House.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thePark.resx">
+      <DependentUpon>thePark.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="the_1_encounter.resx">
       <DependentUpon>the_1_encounter.cs</DependentUpon>
@@ -189,6 +297,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\rock" />
     <None Include="Resources\welcome screen.PNG" />
   </ItemGroup>
   <ItemGroup>
@@ -247,6 +356,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\map.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\park.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ravda_residents.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ravda_residents-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rock2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\road.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rock3.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drug_addict-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syring-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drug_addict with syring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ko.d addict.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus stop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passer_by1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passer_by2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car trunk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bojkata i hristov.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
