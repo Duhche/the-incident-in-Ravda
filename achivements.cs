@@ -33,5 +33,12 @@ namespace the_incident_in_Ravda
         {
             // Handle selection change if needed
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            mainMenu menu = new mainMenu();
+            menu.Show();
+            this.Hide();
+        }
     }
 }
