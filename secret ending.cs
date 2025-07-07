@@ -24,9 +24,9 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!achivement_c.IsUnlocked("The left hand of the Ravda boss"))
+            if (!achivement_c.IsUnlocked("Left hand of the Ravda boss"))
             {
-                achivement_c.Unlock("The left hand of the Ravda boss");
+                achivement_c.Unlock("Left hand of the Ravda boss");
             }
             mainMenu menu = new mainMenu();
             menu.Show();
