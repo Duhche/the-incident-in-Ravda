@@ -46,5 +46,13 @@ namespace the_incident_in_Ravda
                 this.Hide();
             }
         }
+
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            achivements achivementsForm = new achivements();
+            achivementsForm.Show();
+            this.Hide();
+        }
     }
 }

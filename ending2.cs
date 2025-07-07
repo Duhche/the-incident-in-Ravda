@@ -19,6 +19,10 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (!achivement_c.IsUnlocked("The good stranger"))
+            {
+                achivement_c.Unlock("The good stranger");
+            }
             mainMenu menu = new mainMenu();
             menu.Show();
             this.Hide();

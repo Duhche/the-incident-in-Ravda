@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static the_incident_in_Ravda.achivement_c;
 
 namespace the_incident_in_Ravda
 {
@@ -19,6 +21,7 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             burried_in_basement_end end1 = new burried_in_basement_end();
             end1.Show();
             this.Hide();
@@ -29,6 +32,11 @@ namespace the_incident_in_Ravda
             basement_door door = new basement_door();
             door.Show();
             this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

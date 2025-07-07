@@ -19,6 +19,7 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             burried_in_basement_end end1 = new burried_in_basement_end();
             end1.Show();
             this.Hide();

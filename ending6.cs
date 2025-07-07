@@ -19,6 +19,10 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (!achivement_c.IsUnlocked("Tricked"))
+            {
+                achivement_c.Unlock("Tricked");
+            }
             mainMenu menu = new mainMenu();
             menu.Show();
             this.Hide();

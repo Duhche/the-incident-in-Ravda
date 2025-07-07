@@ -31,6 +31,8 @@
             this.Start = new System.Windows.Forms.Button();
             this.title = new System.Windows.Forms.Label();
             this.Quit = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Start
@@ -74,6 +76,18 @@
             this.Quit.UseVisualStyleBackColor = false;
             this.Quit.Click += new System.EventHandler(this.quit);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::the_incident_in_Ravda.Properties.Resources.trophy2_removebg_preview;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(684, 348);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(122, 105);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // mainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -82,12 +96,14 @@
             this.BackgroundImage = global::the_incident_in_Ravda.Properties.Resources.welcome_screen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(802, 453);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.title);
             this.Controls.Add(this.Quit);
             this.Controls.Add(this.Start);
             this.DoubleBuffered = true;
             this.Name = "mainMenu";
             this.Text = "The Ravda Incident";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,6 +113,7 @@
         private System.Windows.Forms.Button Start;
         private System.Windows.Forms.Label title;
         private System.Windows.Forms.Button Quit;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

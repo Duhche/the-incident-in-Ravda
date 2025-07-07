@@ -19,6 +19,10 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (!achivement_c.IsUnlocked("Forever lost"))
+            {
+                achivement_c.Unlock("Forever lost");
+            }
             mainMenu menu = new mainMenu();
             menu.Show();
             this.Hide();

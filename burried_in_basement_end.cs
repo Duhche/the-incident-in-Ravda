@@ -19,6 +19,10 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (!achivement_c.IsUnlocked("Buried in the basement"))
+            {
+                achivement_c.Unlock("Buried in the basement");
+            }
             mainMenu menu = new mainMenu();
             menu.Show();
             this.Hide();

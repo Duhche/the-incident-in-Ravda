@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="achivements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="achivements.Designer.cs">
+      <DependentUpon>achivements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="achivement_c.cs" />
     <Compile Include="basemant_ending.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +205,9 @@
     <Compile Include="the_1_encounter.Designer.cs">
       <DependentUpon>the_1_encounter.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="achivements.resx">
+      <DependentUpon>achivements.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="basemant_ending.resx">
       <DependentUpon>basemant_ending.cs</DependentUpon>
     </EmbeddedResource>
@@ -404,6 +414,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bojkata i hristov.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

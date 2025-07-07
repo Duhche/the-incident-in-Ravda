@@ -53,9 +53,9 @@
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(219, 374);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(374, 33);
+            this.label2.Size = new System.Drawing.Size(379, 33);
             this.label2.TabIndex = 1;
-            this.label2.Text = "[secret ending] left hand of the ravda boss";
+            this.label2.Text = "[secret ending] left hand of the Ravda boss";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button1

@@ -24,6 +24,7 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             ending2 end2 = new ending2();
             end2.Show();
             this.Hide();

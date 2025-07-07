@@ -19,6 +19,10 @@ namespace the_incident_in_Ravda
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (!achivement_c.IsUnlocked("The bus to home"))
+            {
+                achivement_c.Unlock("The bus to home");
+            }
             mainMenu menu = new mainMenu();
             menu.Show();
             this.Hide();
