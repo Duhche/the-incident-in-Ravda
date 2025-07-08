@@ -18,6 +18,7 @@ namespace the_incident_in_Ravda
         {
             InitializeComponent();
             title.Click += title_Click;
+            Background_soundP.Start();
         }
 
         private void start(object sender, EventArgs e)

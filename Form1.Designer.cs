@@ -43,7 +43,7 @@
             this.Start.Font = new System.Drawing.Font("Chiller", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Start.ForeColor = System.Drawing.Color.Red;
             this.Start.Location = new System.Drawing.Point(378, 446);
-            this.Start.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Start.Margin = new System.Windows.Forms.Padding(2);
             this.Start.Name = "Start";
             this.Start.Size = new System.Drawing.Size(254, 69);
             this.Start.TabIndex = 1;
@@ -72,7 +72,7 @@
             this.Quit.Font = new System.Drawing.Font("Chiller", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quit.ForeColor = System.Drawing.Color.Red;
             this.Quit.Location = new System.Drawing.Point(408, 546);
-            this.Quit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Quit.Margin = new System.Windows.Forms.Padding(2);
             this.Quit.Name = "Quit";
             this.Quit.Size = new System.Drawing.Size(200, 70);
             this.Quit.TabIndex = 3;
@@ -86,7 +86,7 @@
             this.pictureBox1.BackgroundImage = global::the_incident_in_Ravda.Properties.Resources.trophy2_removebg_preview;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(838, 625);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(145, 131);
             this.pictureBox1.TabIndex = 5;
@@ -107,7 +107,7 @@
             this.Controls.Add(this.Start);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "mainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "The Ravda Incident";
