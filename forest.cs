@@ -30,5 +30,10 @@ namespace the_incident_in_Ravda
             end3.Show();
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

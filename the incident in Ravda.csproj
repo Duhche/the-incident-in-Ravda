@@ -424,5 +424,8 @@
   <ItemGroup>
     <None Include="Resources\trophy-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="back.ground_m.mp3" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

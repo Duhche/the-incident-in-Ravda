@@ -38,5 +38,10 @@ namespace the_incident_in_Ravda
         {
 
         }
+
+        private void text1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
