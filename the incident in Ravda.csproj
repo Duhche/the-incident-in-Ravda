@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -172,6 +172,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="intro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intro.Designer.cs">
+      <DependentUpon>intro.cs</DependentUpon>
+    </Compile>
     <Compile Include="map of ravda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -269,6 +275,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intro.resx">
+      <DependentUpon>intro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="map of ravda.resx">
       <DependentUpon>map of ravda.cs</DependentUpon>
@@ -431,6 +440,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="back.ground_m.mp3" />
+    <None Include="Resources\night_time-road1.jpg" />
     <Content Include="scary_background_music.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

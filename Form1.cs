@@ -23,10 +23,8 @@ namespace the_incident_in_Ravda
 
         private void start(object sender, EventArgs e)
         {
-            basement Basement = new basement();
-
-            Basement.Show();
-
+            intro introductionForm = new intro();
+            introductionForm.Show();
             this.Hide();
         }
 
@@ -41,7 +39,7 @@ namespace the_incident_in_Ravda
 
             if (titleClickCount == 5)
             {
-                titleClickCount = 0; // reset if needed
+                titleClickCount = 0; 
                 secret_ending secretEnding = new secret_ending();
                 secretEnding.Show();
                 this.Hide();

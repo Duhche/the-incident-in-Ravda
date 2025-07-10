@@ -283,6 +283,16 @@ namespace the_incident_in_Ravda.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap night_time_road {
+            get {
+                object obj = ResourceManager.GetObject("night_time-road", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap park {
             get {
                 object obj = ResourceManager.GetObject("park", resourceCulture);
